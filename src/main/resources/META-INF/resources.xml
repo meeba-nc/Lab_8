@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <Resource id="catalogExampleDataSource" type="javax.sql.DataSource">
+        JtaManaged = false
+        JdbcDriver = org.postgresql.Driver
+        JdbcUrl = jdbc:postgresql://localhost:5432/catalog_example
+        UserName = postgres
+        Password = postgres
+    </Resource>
+</resources>

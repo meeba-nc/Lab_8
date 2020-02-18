@@ -1,0 +1,1 @@
+INSERT INTO categories (id, name) VALUES (1, 'Mobile phones'), (2, 'Tablets'), (3, 'Laptops') ON CONFLICT DO NOTHING;
