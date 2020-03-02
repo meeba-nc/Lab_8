@@ -1,5 +1,5 @@
 body, code {
-    font-family: SANS-SERIF;
+    font-family: SANS-SERIF, serif;
 }
 
 header {
@@ -10,7 +10,7 @@ header {
 
 ul {
     list-style-type: none;
-    padding: 0px;
+    padding: 0;
 }
 
 li {
@@ -20,9 +20,9 @@ li {
 }
 
 h2, h3 {
-    padding: 0px;
+    padding: 0;
     margin-bottom: 10px;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 main {
@@ -30,17 +30,17 @@ main {
 }
 
 form {
-    margin: 0px;
+    margin: 0;
 }
 
 form ul li {
-    margin: 0px;
+    margin: 0;
     border: none;
     padding: 5px;
 }
 
 form ul li:last-child {
-    padding-bottom: 0px;
+    padding-bottom: 0;
 }
 
 .warning {
